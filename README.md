@@ -1,0 +1,1 @@
+# krouzek_strategie1
