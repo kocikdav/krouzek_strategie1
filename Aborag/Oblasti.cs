@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+
 
 namespace Aborag
 {
@@ -55,5 +59,21 @@ namespace Aborag
         {
             return podminky[oblast];
         }
+
+
+        public void Update(int x/*x-ová souradnice mysi*/, int y/*y-ová souradnice mysi*/, bool klik /*informace o kliknuti*/)
+        {
+            //zjisteni pozice mysi pri kliknuti
+            //zobrazení nabídky moznosti
+        }
+
+
+        public void Draw(SpriteBatch batch)
+        {
+            //vykresleni pozadi
+            //vykresleni nabidky moznosti
+        }
+
+
     }
 }

@@ -44,6 +44,11 @@ namespace Aborag
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+
+
+            //rozdeleni jednotek hracum
+
+
         }
 
         /// <summary>
@@ -66,8 +71,17 @@ namespace Aborag
                 Exit();
 
             // TODO: Add your update logic here
-
+            
             base.Update(gameTime);
+
+
+            //vypocty pohybu jednotek
+            //vypocty boje
+            //vyhra
+
+            //ovladani nabidyk moznosti
+            //presun jednotek na zaklade pokynu
+            //poslani informaci o pozici mysi pri kliknuti
         }
 
         /// <summary>
@@ -77,6 +91,10 @@ namespace Aborag
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+
+            //vykresleni pozadi, moznosti
+            //vykresleni boje v souboji
+
 
             // TODO: Add your drawing code here
 
